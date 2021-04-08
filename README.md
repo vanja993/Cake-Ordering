@@ -26,6 +26,7 @@ Right click on CakeFactory in Project Explorer and go to properties.  In Java Bu
 Go to MySQL Workbench and connect to MySQL server on the local mashine. Create a database called “costumers”. This database shoud contain three tables: 
 
 1.admintable :
+
 | idNumber | username | password | 
 
 idNumber : INT PK NN
@@ -33,12 +34,14 @@ username : VARCHAR (45)
 password : VARCHAR (45)
 
 2.costumerstable:
+
 | costumer_Number | firstName | lastName | idNumber | contactNumber |
 
 costumer_Number : INT PK NN
 firstName, lastName, idNumber, contactNumber : VARCHAR(45)
 
 3.caketable
+
 | idcake | shape | size | teir | sponge | cream | jam | fruit | toping | day | address | decor |
 
 idcake : INT PK NN
