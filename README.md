@@ -56,7 +56,7 @@ Working with applicaton:
 
 In Project Explorer go to CakeFactory->src->default package->Main.java. To run a java file click on a run button(green circle with an arrow in toolbar). First frame that appears is a MySQL connection. In Server text field type: <br> 
 jdbc:mysql://localhost:3306/costumers <br> 
-<p>Username and password text fields are your username and password of connection to MySQL server. <>
+Username and password text fields are your username and password of connection to MySQL server.
 
 Clicking on Next button a Login frame will appear.  Username and password text fields are for the people who will have access to cake ordering management. At first, there will be non, so go to SignUp button and fill up the text fields. You can add as many people as you want, and their informations are saved in “admintable”. With that informations you can login to Loby Page which is the next frame.
 
