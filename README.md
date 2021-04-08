@@ -7,9 +7,13 @@ Requirements:
 -------------
 
 Java Development Kit (JDK): https://www.oracle.com/java/technologies/javase-jdk16-downloads.html 
+
 Eclipse IDE: https://www.eclipse.org/downloads/
+
 (or other Integrated Development Environment (IDE), such like IntelliJ IDEA) 
+
 MySQL Database Community Server: https://dev.mysql.com/downloads/mysql/ (MySQL Workbench included).
+
 MySQL Connector/J (JDBC driver):https://dev.mysql.com/downloads/connector/j/
 
 ----------
