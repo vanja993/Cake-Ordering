@@ -31,7 +31,9 @@ Go to MySQL Workbench and connect to MySQL server on the local mashine. Create a
 |----------|-----------|---------|
 
 idNumber : INT PK NN
+
 username : VARCHAR (45)
+
 password : VARCHAR (45)
 
 2.costumerstable:
@@ -40,6 +42,7 @@ password : VARCHAR (45)
 |-----------------|------------|-----------|-----------|------------|
 
 costumer_Number : INT PK NN
+
 firstName, lastName, idNumber, contactNumber : VARCHAR(45)
 
 3.caketable
@@ -48,7 +51,9 @@ firstName, lastName, idNumber, contactNumber : VARCHAR(45)
 |--------|-------|------|------|--------|-------|-----|-------|---------|-----|---------|-------|
 
 idcake : INT PK NN
+
 shape, size, teir, sponge, cream, jar,fruit, toping, day,addres : VARCHAR(45)
+
 decor : VARCHAR(1000)
 
 This is everything you will need in order to start a program. 
